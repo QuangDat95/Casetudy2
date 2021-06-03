@@ -24,4 +24,4 @@ if( isset( $cart[$id_sp] ) ){
 $_SESSION['gio_hang'] = $cart;
 
 //chuyển hướng về trang sản phẩm
-header("Location: cart.php");
+header("Location: product.php?id=".$id_sp);

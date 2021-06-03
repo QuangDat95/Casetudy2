@@ -51,7 +51,8 @@ class SanPhamModel extends DatabaseConnect {
             Gia_san_pham) VALUES 
         (
             '$ID_hang', 
-            '$Ten_san_pham', 
+            '$Ten_san_pham',
+            '$hinh_anh', 
             '$Gia_san_pham'
         )";
         $stmt = $this->_db->query( $sql );
